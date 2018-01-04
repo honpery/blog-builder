@@ -6,7 +6,11 @@
         "version": "3.4.4"
     },
     "scripts": {
-        "dev": "hexo server"
+        "sync": "cd source && git pull origin master && cd ..",
+        "dev": "hexo server",
+        "test": "echo 1",
+        "build": "hexo generate",
+        "deploy": "bash ./scripts/deploy.sh"
     },
     "dependencies": {
         "hexo": "^3.2.0",

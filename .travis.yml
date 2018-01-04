@@ -7,6 +7,11 @@ branches:
     only:
         - master
 
+script:
+    - yarn test
+    - yarn run build
+    - yarn run deploy
+
 notifications:
     email:
         on_success: never
