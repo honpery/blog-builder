@@ -10,7 +10,7 @@
         "dev": "hexo server",
         "test": "echo 1",
         "build": "hexo generate",
-        "deploy": "bash ./scripts/deploy.sh"
+        "deploy": "bash ./_scripts/deploy.sh"
     },
     "dependencies": {
         "hexo": "^3.2.0",
