@@ -9,7 +9,7 @@
         "sync": "cd source && git pull origin master && cd ..",
         "dev": "hexo server",
         "test": "echo 1",
-        "build": "hexo generate",
+        "build": "hexo generate --debug",
         "deploy": "bash ./_scripts/deploy.sh"
     },
     "dependencies": {

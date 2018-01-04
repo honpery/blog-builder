@@ -11,9 +11,7 @@ git:
     submodules: false
 
 script:
-    - yarn test
-    - yarn run build
-    - yarn run deploy
+    - yarn test & yarn run build && yarn run deploy
 
 notifications:
     email:
