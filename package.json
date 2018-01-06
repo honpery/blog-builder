@@ -6,7 +6,7 @@
         "version": "3.4.4"
     },
     "scripts": {
-        "sync": "cd source && git pull origin master && cd ..",
+        "sync": "git submodule sync",
         "dev": "hexo server",
         "test": "echo 1",
         "build": "hexo generate --debug",

@@ -7,9 +7,6 @@ branches:
     only:
         - master
 
-git:
-    submodules: false
-
 script:
     - yarn test & yarn run build && yarn run deploy
 
