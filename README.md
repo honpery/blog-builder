@@ -1,1 +1,1 @@
-# honpery.github.io [![Build Status](https://travis-ci.org/honpery/honpery.github.io.svg?branch=master)](https://travis-ci.org/honpery/honpery.github.io)
+# blog-builder [![Build Status](https://travis-ci.org/honpery/blog-builder.svg?branch=master)](https://travis-ci.org/honpery/blog-builder)
