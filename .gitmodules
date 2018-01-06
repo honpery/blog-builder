@@ -1,3 +1,6 @@
 [submodule "source"]
 	path = source
 	url = https://github.com/honpery/honpery.github.io.git
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/iissnan/hexo-theme-next
