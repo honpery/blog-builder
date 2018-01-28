@@ -9,7 +9,7 @@
         "sync": "git submodule sync",
         "dev": "hexo server",
         "test": "echo 1",
-        "build": "hexo generate --debug",
+        "build": "hexo generate",
         "deploy": "bash ./_scripts/deploy.sh"
     },
     "dependencies": {
