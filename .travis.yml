@@ -7,6 +7,12 @@ branches:
     only:
         - master
 
+git:
+    submodules: false
+  
+before_install:
+    - git submodule update --init --remote --recursive
+
 script:
     - yarn test & yarn run build && yarn run deploy
 
